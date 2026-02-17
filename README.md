@@ -25,26 +25,26 @@ Pelajari **secara berurutan** — setiap materi build on top of the previous one
 
 | # | Materi | Topik | Durasi |
 |---|---|---|---|
-| 01 | [State Management Overview](./study-material/01-state-management-overview.md) | useState review, lifting state, prop drilling problem | 45 min |
-| 02 | [Context API Deep Dive](./study-material/02-context-api-deep-dive.md) | createContext, Provider, useContext, when to use | 60 min |
-| 03 | [Zustand — Modern State Management](./study-material/03-zustand-intro.md) | Zustand basics, store creation, selectors, middleware | 60 min |
-| 04 | [State Patterns & Best Practices](./study-material/04-state-patterns.md) | When to use what, composition, anti-patterns | 30 min |
+| 01 | [The State Spectrum](./study-material/01-state-spectrum.md) | Dari useState sampe server state, lifting state, prop drilling | 45 min |
+| 02 | [Zustand Fundamentals](./study-material/02-zustand.md) | State management yang gak bikin pusing, store creation | 60 min |
+| 03 | [Zustand Advanced](./study-material/03-zustand-advanced.md) | Production-grade patterns, middleware, selectors | 60 min |
 
 ### Day 2-3: API Integration
 
 | # | Materi | Topik | Durasi |
 |---|---|---|---|
-| 05 | [Axios & HTTP Client Setup](./study-material/05-axios-setup.md) | Axios instance, interceptors, error handling | 45 min |
-| 06 | [React Query — Server State](./study-material/06-react-query-intro.md) | useQuery, useMutation, queryKey, caching | 75 min |
-| 07 | [Advanced React Query](./study-material/07-react-query-advanced.md) | Optimistic updates, infinite scroll, cache invalidation | 60 min |
+| 04 | [Data Fetching Patterns](./study-material/04-data-fetching-patterns.md) | Kenapa useEffect + fetch itu bencana, proper patterns | 45 min |
+| 05 | [Axios Service Layer](./study-material/05-axios-service-layer.md) | Arsitektur API yang bener, interceptors, error handling | 45 min |
+| 06 | [React Query CRUD](./study-material/06-react-query-crud.md) | useQuery, useMutation, queryKey, caching | 75 min |
+| 07 | [React Query Advanced](./study-material/07-react-query-advanced.md) | Dashboard dengan multiple data sources, optimistic updates | 60 min |
 
 ### Day 3-4: Authentication
 
 | # | Materi | Topik | Durasi |
 |---|---|---|---|
-| 08 | [JWT Authentication in React](./study-material/08-auth-jwt-react.md) | JWT flow, login/logout, token storage | 60 min |
-| 09 | [Protected Routes & Auth State](./study-material/09-protected-routes.md) | Route guards, auth context, role-based access | 45 min |
-| 10 | [Forms & Validation](./study-material/10-forms-validation.md) | React Hook Form, Zod validation, form patterns | 60 min |
+| 08 | [Auth JWT Complete](./study-material/08-auth-jwt-complete.md) | Dari register sampe auto-logout, token rotation | 60 min |
+| 09 | [Protected Routes](./study-material/09-protected-routes.md) | Role-based access control, route guards, auth context | 45 min |
+| 10 | [Error Handling & UX](./study-material/10-error-handling-ux.md) | Bikin app yang gak malu-maluin pas error | 60 min |
 
 ### Day 4-5: Advanced Topics
 
